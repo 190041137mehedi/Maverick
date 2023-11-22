@@ -1,0 +1,28 @@
+.button{
+    -fx-background-color: #00897B;
+    -fx-background-radius: 0;
+    -fx-content-display: left;
+    -fx-padding: 0px 0px;
+}
+
+.button:hover{
+    -fx-background-color: #00796B;
+}
+
+.button:pressed{
+    -fx-background-color: #00695C;
+}
+
+.toggle-button {
+    -fx-background-color: #00897B;
+    -fx-background-radius: 0;
+    -fx-padding: 0px 0px;
+}
+
+.toggle-button:selected {
+    -fx-background-color: #00695C;
+}
+
+.toggle-button:selected:focused {
+    -fx-background-color: #00695C;
+}

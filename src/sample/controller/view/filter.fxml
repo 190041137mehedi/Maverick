@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="filter" style="-fx-background-color: lightblue;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.filterController">
+   <children>
+      <HBox layoutX="14.0" layoutY="8.0">
+         <children>
+            <VBox prefHeight="230.0" prefWidth="138.0">
+               <children>
+                  <Label prefHeight="20.0" prefWidth="124.0" text="By Semester">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <CheckBox mnemonicParsing="false" prefHeight="20.0" prefWidth="119.0" stylesheets="@../css/style.css" text="1st Semester">
+                     <VBox.margin>
+                        <Insets top="3.0" />
+                     </VBox.margin>
+                  </CheckBox>
+                  <CheckBox mnemonicParsing="false" prefHeight="20.0" prefWidth="119.0" stylesheets="@../css/style.css" text="2nd Semester">
+                     <VBox.margin>
+                        <Insets top="3.0" />
+                     </VBox.margin>
+                  </CheckBox>
+                  <CheckBox mnemonicParsing="false" prefHeight="20.0" prefWidth="119.0" stylesheets="@../css/style.css" text="3rd Semester">
+                     <VBox.margin>
+                        <Insets top="3.0" />
+                     </VBox.margin>
+                  </CheckBox>
+                  <CheckBox mnemonicParsing="false" prefHeight="20.0" prefWidth="119.0" stylesheets="@../css/style.css" text="4th Semester">
+                     <VBox.margin>
+                        <Insets top="3.0" />
+                     </VBox.margin>
+                  </CheckBox>
+                  <CheckBox mnemonicParsing="false" prefHeight="20.0" prefWidth="119.0" stylesheets="@../css/style.css" text="5thSemester">
+                     <VBox.margin>
+                        <Insets top="3.0" />
+                     </VBox.margin>
+                  </CheckBox>
+                  <CheckBox mnemonicParsing="false" prefHeight="20.0" prefWidth="119.0" stylesheets="@../css/style.css" text="6th Semester">
+                     <VBox.margin>
+                        <Insets top="3.0" />
+                     </VBox.margin>
+                  </CheckBox>
+                  <CheckBox mnemonicParsing="false" prefHeight="20.0" prefWidth="119.0" stylesheets="@../css/style.css" text="7th Semester">
+                     <VBox.margin>
+                        <Insets top="3.0" />
+                     </VBox.margin>
+                  </CheckBox>
+                  <CheckBox mnemonicParsing="false" prefHeight="20.0" prefWidth="119.0" stylesheets="@../css/style.css" text="8th Semester">
+                     <VBox.margin>
+                        <Insets top="3.0" />
+                     </VBox.margin>
+                  </CheckBox>
+               </children>
+            </VBox>
+            <Pane prefHeight="230.0" prefWidth="111.0" />
+            <VBox prefHeight="230.0" prefWidth="138.0">
+               <children>
+                  <Label prefHeight="27.0" prefWidth="143.0" text="By Department">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <CheckBox mnemonicParsing="false" prefHeight="20.0" prefWidth="119.0" stylesheets="@../css/style.css" text="CSE">
+                     <VBox.margin>
+                        <Insets top="3.0" />
+                     </VBox.margin>
+                  </CheckBox>
+                  <CheckBox mnemonicParsing="false" prefHeight="20.0" prefWidth="119.0" stylesheets="@../css/style.css" text="EEE">
+                     <VBox.margin>
+                        <Insets top="3.0" />
+                     </VBox.margin>
+                  </CheckBox>
+                  <CheckBox mnemonicParsing="false" prefHeight="20.0" prefWidth="119.0" stylesheets="@../css/style.css" text="SWE">
+                     <VBox.margin>
+                        <Insets top="3.0" />
+                     </VBox.margin>
+                  </CheckBox>
+                  <CheckBox mnemonicParsing="false" prefHeight="20.0" prefWidth="119.0" stylesheets="@../css/style.css" text="MPE">
+                     <VBox.margin>
+                        <Insets top="3.0" />
+                     </VBox.margin>
+                  </CheckBox>
+                  <CheckBox mnemonicParsing="false" prefHeight="20.0" prefWidth="119.0" stylesheets="@../css/style.css" text="CEE">
+                     <VBox.margin>
+                        <Insets top="3.0" />
+                     </VBox.margin>
+                  </CheckBox>
+                  <CheckBox mnemonicParsing="false" prefHeight="20.0" prefWidth="119.0" stylesheets="@../css/style.css" text="IPE">
+                     <VBox.margin>
+                        <Insets top="3.0" />
+                     </VBox.margin>
+                  </CheckBox>
+                  <CheckBox mnemonicParsing="false" prefHeight="20.0" prefWidth="119.0" stylesheets="@../css/style.css" text="BTM">
+                     <VBox.margin>
+                        <Insets top="3.0" />
+                     </VBox.margin>
+                  </CheckBox>
+                  <CheckBox mnemonicParsing="false" prefHeight="20.0" prefWidth="119.0" stylesheets="@../css/style.css" text="BHTT">
+                     <VBox.margin>
+                        <Insets top="3.0" />
+                     </VBox.margin>
+                  </CheckBox>
+               </children>
+               <HBox.margin>
+                  <Insets left="60.0" />
+               </HBox.margin>
+            </VBox>
+            <Pane prefHeight="230.0" prefWidth="155.0" />
+         </children>
+      </HBox>
+      <Button fx:id="cancelFilter" layoutX="486.0" layoutY="200.0" maxHeight="35.0" maxWidth="220.0" minHeight="35.0" minWidth="130.0" mnemonicParsing="false" onMouseClicked="#removeChildren" prefHeight="35.0" prefWidth="130.0" stylesheets="@../css/style.css" text="RESET" AnchorPane.bottomAnchor="15.0" AnchorPane.rightAnchor="15.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <styleClass>
+            <String fx:value="forum-cancel-button" />
+            <String fx:value="forum-button" />
+         </styleClass>
+      </Button>
+      <Button fx:id="applyFilter" layoutX="486.0" layoutY="155.0" maxHeight="35.0" maxWidth="220.0" minHeight="29.0" minWidth="130.0" mnemonicParsing="false" onMouseClicked="#removeChildren" prefHeight="35.0" prefWidth="130.0" stylesheets="@../css/style.css" text="APPLY" AnchorPane.bottomAnchor="60.0" AnchorPane.rightAnchor="15.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <styleClass>
+            <String fx:value="forum-apply-button" />
+            <String fx:value="forum-button" />
+         </styleClass>
+      </Button>
+   </children>
+</AnchorPane>

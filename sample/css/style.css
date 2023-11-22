@@ -1,0 +1,394 @@
+* {
+    -fx-black-shade-1: #1e1f21;
+    -fx-black-shade-2: #27292e;
+    -fx-black-shade-3: #313339;
+    -fx-black-shade-4: #36393f;
+	-fx-blue-shade-1: #134b5f;
+	-fx-blue-shade-2: #165a72;
+	-fx-blue-shade-3: #1e7898;
+	-fx-yellow-shade-1: #c2950c;
+	-fx-yellow-shade-2: #d6a40b;
+	-fx-yellow-shade-3: #f2c811;
+	-fx-grey-shade-0: #4d4d4d;
+	-fx-grey-shade-1: #9e9e93;
+	-fx-grey-shade-2: #b5b5a8;
+	-fx-grey-shade-3: #e2e2d2;
+	-fx-grey-shade-4: #efefef;
+}
+
+/*--------------Login/Register/Verify CSS--------------*/
+.login-background{
+    -fx-background-color: -fx-black-shade-4;
+}
+.login-text-field{
+    -fx-border-color: -fx-black-shade-2;
+    -fx-background-color: -fx-black-shade-3;
+    -fx-border-radius: 4.0;
+    -fx-background-radius: 4.0;
+    -fx-prompt-text-fill:black;
+    -fx-text-fill: white;
+    -fx-font-size: 17.0;
+}
+.login-text-field:hover{
+    -fx-border-color: -fx-black-shade-1;
+}
+.login-text-field:focused{
+    -fx-border-color: -fx-yellow-shade-3;
+    -fx-background-color: -fx-black-shade-3;
+    -fx-prompt-text-fill: white;
+    -fx-font-size: 18.0;
+}
+
+.login-button{
+    -fx-font-size: 17.0;
+    -fx-background-color: -fx-yellow-shade-3;
+}
+.login-button:hover{
+    -fx-font-size: 17.0;
+    -fx-background-color: -fx-yellow-shade-2;
+}
+.login-button:pressed{
+    -fx-font-size: 17.0;
+    -fx-background-color: -fx-yellow-shade-1;
+}
+
+.login-hyperlink{
+    -fx-text-fill: -fx-yellow-shade-3;
+}
+.login-hyperlink:hover {
+    -fx-underline: true;
+}
+.login-hyperlink:focused{
+    -fx-text-fill: -fx-yellow-shade-2;
+    -fx-border-color:  transparent;
+}
+
+.date-picker .text-field {
+    -fx-control-inner-background: #313339;
+    -fx-border-color: transparent;
+}
+.date-picker .text-field:hover{
+    -fx-border-color: #1e1f21;
+}
+.date-picker .arrow-button {
+	-fx-background-color: -fx-blue-shade-3;
+	-fx-background-radius: 0;
+}
+.date-picker .arrow-button:hover {
+	-fx-background-color: -fx-blue-shade-1;
+}
+.date-picker .arrow-button .arrow {
+	-fx-background-color: white;
+}
+.date-picker .cell {
+	-fx-background-color: white;
+}
+.date-picker .cell:hover {
+	-fx-background-color: -fx-blue-shade-3;
+}
+.date-picker .cell:focused {
+	-fx-background-color: -fx-blue-shade-3;
+}
+.date-picker .selected {
+	-fx-background-color: -fx-blue-shade-1;
+	-fx-text-fill: white;
+}
+.date-picker .selected:focused {
+	-fx-background-color: -fx-blue-shade-1;
+	-fx-text-fill: white;
+}
+.date-picker-popup  {
+	-fx-border-color: transparent;
+}
+.date-picker-popup .month-year-pane {
+	-fx-background-color: -fx-blue-shade-1;
+}
+.date-picker-popup .month-year-pane .label {
+	-fx-text-fill: white;
+}
+.date-picker-popup .week-number-cell {
+	-fx-text-fill: -fx-blue-shade-3;
+}
+.date-picker-popup .spinner .button .left-arrow,
+.date-picker-popup .spinner .button .right-arrow {
+	-fx-background-color: -fx-blue-shade-3;
+}
+
+
+/*--------------Sidebar CSS--------------*/
+.sidebar-button{
+    -fx-background-color: -fx-blue-shade-1;
+    -fx-background-radius: 0;
+    -fx-content-display: left;
+    -fx-padding: 0px 0px;
+}
+.sidebar-button:hover{
+    -fx-background-color: -fx-blue-shade-2;
+}
+.sidebar-button:pressed{
+    -fx-background-color: -fx-blue-shade-3;
+    -fx-border-width: 0 0 0 3;
+    -fx-border-color: -fx-yellow-shade-3;
+}
+.sidebar-button:focused{
+    -fx-background-color: -fx-blue-shade-3;
+    -fx-border-width: 0 0 0 3;
+    -fx-border-color: -fx-yellow-shade-3;
+}
+
+.sidebar-toggle-button {
+    -fx-background-color: -fx-blue-shade-1;
+    -fx-background-radius: 0;
+    -fx-padding: 0px 0px;
+}
+.sidebar-toggle-button:selected {
+    -fx-background-color: -fx-blue-shade-3;
+    -fx-border-width: 0 0 0 3;
+    -fx-border-color: -fx-yellow-shade-3;
+}
+.sidebar-toggle-button:selected:focused {
+    -fx-background-color: -fx-blue-shade-3;
+}
+
+.sidebar-background{
+    -fx-background-color: -fx-blue-shade-1;
+}
+
+/*--------------Forum CSS--------------*/
+.forum-search-text-field{
+    -fx-background-color: -fx-grey-shade-3;
+    -fx-border-color: -fx-grey-shade-2;
+    -fx-border-radius: 0.0;
+    -fx-border-width: 1 0 1 1;
+    -fx-background-radius: 0.0;
+    -fx-prompt-text-fill: #5a5a54;
+    -fx-text-fill: black;
+    -fx-font-size: 17.0;
+}
+.forum-search-text-field:hover{
+    -fx-border-color: -fx-grey-shade-1;
+}
+.forum-search-text-field:focused{
+    -fx-border-color: -fx-grey-shade-1;
+    -fx-background-color: white;
+    -fx-prompt-text-fill: #5a5a54;
+    -fx-font-size: 17.0;
+}
+
+.forum-button{
+    -fx-font-size: 17.0;
+    -fx-background-color: -fx-grey-shade-3;
+    -fx-background-radius: 5.0;
+    -fx-border-color: none;
+    -fx-border-radius: 5.0;
+    -fx-padding: 0 0 0 0;
+}
+.forum-button:hover{
+    -fx-background-color: -fx-yellow-shade-3;
+    -fx-text-fill: black;
+}
+.forum-button:pressed{
+    -fx-background-color: -fx-yellow-shade-2;
+    -fx-text-fill: black;
+}
+
+.forum-search-background{
+    -fx-background-color: -fx-grey-shade-4;
+    -fx-text-color: white;
+}
+.forum-whole-background{
+    -fx-background-color: -fx-grey-shade-4;
+}
+
+.forum-search-button{
+    -fx-background-color: -fx-grey-shade-3;
+    -fx-border-color: -fx-grey-shade-2;
+    -fx-background-radius: 0.0;
+    -fx-border-radius: 0.0;
+    -fx-border-width: 1 1 1 0;
+}
+
+.forum-ask-question-button{
+    -fx-text-fill: -fx-grey-shade-1;
+    -fx-font-weight: bold;
+    -fx-font-size: 17.0;
+}
+
+.forum-apply-button:hover{
+    -fx-background-color: #66d29a;
+}
+
+.forum-cancel-button:hover{
+    -fx-background-color: coral;
+}
+
+.combo-box .list-cell
+{
+    -fx-background: white;
+    -fx-background-color: transparent;
+    -fx-text-fill: black;
+    -fx-padding: 3 0 2 7;
+    -fx-cell-size: 1.66667em;
+}
+.combo-box-popup .list-view .list-cell:filled:hover
+{
+    -fx-background-color: -fx-yellow-shade-3;
+    -fx-text-fill: black;
+}
+.combo-box-base
+{
+    -fx-background-color: -fx-grey-shade-3;
+    -fx-background-radius: 6, 6, 6, 6;
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-padding: 0;
+    -fx-font-size: 17.0;
+    -fx-text-fill: black;
+}
+.combo-box-base:hover
+{
+    -fx-background-color: -fx-yellow-shade-3;
+}
+.combo-box-base:disabled {
+    -fx-opacity: .4;
+}
+
+.menu-button{
+    -fx-padding: 0;
+    -fx-background-color: -fx-grey-shade-3;
+    -fx-background-radius: 5.0;
+    -fx-border-color: none;
+}
+.menu-button:hover{
+    -fx-background-color: -fx-yellow-shade-3;
+}
+.menu-button:pressed{
+    -fx-background-color: -fx-grey-shade-2;
+}
+.menu-button > .arrow-button {
+    -fx-padding: 0;
+}
+.menu-button > .arrow-button > .arrow {
+    -fx-padding: 0;
+}
+.menu-item .label {
+    -fx-text-fill: black;
+    -fx-font-size: 17.0;
+}
+.menu-item:focused {
+     -fx-background-color: -fx-yellow-shade-3;
+}
+.menu-item:focused .label {
+    -fx-text-fill: black;
+}
+.context-menu {
+    -fx-background-color: white;
+    -fx-background-radius: 6 6 6 6;
+    -fx-padding: 0.5em 0em 0.5em 0em;
+}
+
+
+.check-box .box {
+    -fx-background-color: white;
+    -fx-border-color: grey;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+}
+.check-box:selected .mark {
+    -fx-background-color: white;
+}
+.check-box:selected .box {
+    -fx-background-color: -fx-blue-shade-2;
+}
+
+
+.scroll-pane {
+    -fx-background-color: transparent;
+}
+.scroll-bar:horizontal, .scroll-bar:vertical{
+    -fx-background-color: transparent;
+    -fx-opacity: 0;
+}
+.increment-button, .decrement-button {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+.scroll-bar:horizontal .track,
+.scroll-bar:vertical .track{
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-radius: 0em;
+}
+.scroll-bar:horizontal .thumb,
+.scroll-bar:vertical .thumb {
+    -fx-background-color: transparent;
+    -fx-background-radius: 0em;
+}
+
+.scroll-pane > .viewport {
+   -fx-background-color: transparent;
+}
+
+/*--------------Forum Question CSS--------------*/
+.ques-background {
+    -fx-background-color: white;
+    -fx-background-radius: 5.0;
+    -fx-border-radius: 5px;
+    -fx-border-color: -fx-grey-shade-2;
+}
+.ques-background:hover{
+    -fx-border-color: -fx-blue-shade-3;
+}
+
+.comment-button{
+    -fx-background-color: transparent;
+    -fx-text-fill: grey;
+    -fx-background-radius: 0px;
+    -fx-border-radius: 0px;
+    -fx-font-size: 16.0;
+}
+.comment-button:hover{
+    -fx-background-color: lightblue;
+    -fx-font-size: 16.0;
+}
+.upvote-toggle-button{
+    -fx-background-color: transparent;
+    -fx-border-radius: 6px;
+    -fx-background-radius: 6px;
+    -fx-border-color: transparent;
+    -fx-padding: 0px 0px 3px 0px;
+}
+.upvote-toggle-button:hover{
+    -fx-background-color: #beecd4;
+}
+.upvote-toggle-button:selected {
+    -fx-background-color: none;
+    -fx-border-color: #25be75;
+}
+
+.downvote-toggle-button{
+    -fx-background-color: transparent;
+    -fx-border-radius: 6px;
+    -fx-background-radius: 6px;
+    -fx-border-color: transparent;
+    -fx-padding: 3px 0px 0px 0px;
+}
+.downvote-toggle-button:hover{
+    -fx-background-color: #ecc4be;
+}
+.downvote-toggle-button:selected {
+    -fx-background-color: none;
+    -fx-border-color: #cb5153;
+}
+
+/*------------Forum Contributor-----------*/
+
+/*------------Repository---------------*/
+.repo-search{
+    -fx-background-radius: 50px;
+    -fx-border-radius: 50px;
+    -fx-border-color: -fx-grey-shade-2;
+    -fx-background-color: white;
+}
+.transparent-background{
+    -fx-background-color: transparent;
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+
+<BorderPane minHeight="580.0" minWidth="905.0" styleClass="forum-whole-background" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.forumController">
+   <top>
+      <HBox prefHeight="55.0" BorderPane.alignment="CENTER" />
+   </top>
+</BorderPane>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="620.0" prefWidth="520.0" styleClass="login-background" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.registerController">
+   <center>
+      <AnchorPane prefHeight="550.0" prefWidth="460.0" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+         </BorderPane.margin>
+         <children>
+            <Label alignment="CENTER" layoutX="1.0" prefHeight="46.0" prefWidth="460.0" text="Create an account" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Label>
+            <Button alignment="CENTER" layoutX="1.0" layoutY="457.0" mnemonicParsing="false" onAction="#switchTohome" prefHeight="46.0" prefWidth="460.0" styleClass="login-button" stylesheets="@../css/style.css" text="Continue" textAlignment="CENTER" textFill="#030303">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Button>
+            <Label alignment="TOP_LEFT" layoutX="1.0" layoutY="62.0" prefHeight="20.0" prefWidth="460.0" text="EMAIL OR PHONE NUMBER" textFill="#afb1b5" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label alignment="TOP_LEFT" layoutY="149.0" prefHeight="20.0" prefWidth="460.0" text="USERNAME" textFill="#afb1b5" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label alignment="TOP_LEFT" layoutX="1.0" layoutY="236.0" prefHeight="20.0" prefWidth="460.0" text="PASSWORD" textFill="#afb1b5" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label alignment="TOP_LEFT" layoutX="1.0" layoutY="321.0" prefHeight="20.0" prefWidth="460.0" text="DATE OF BIRTH" textFill="#afb1b5" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <TextField fx:id="emailText" layoutX="1.0" layoutY="88.0" prefHeight="42.0" prefWidth="460.0" styleClass="login-text-field" stylesheets="@../css/style.css">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="usernameText" layoutX="1.0" layoutY="173.0" prefHeight="42.0" prefWidth="460.0" styleClass="login-text-field" stylesheets="@../css/style.css">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <Hyperlink layoutX="-4.0" layoutY="505.0" onAction="#switchToLogin" prefHeight="26.0" prefWidth="178.0" styleClass="login-hyperlink" stylesheets="@../css/style.css" text="Already have an account?">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Hyperlink>
+            <DatePicker fx:id="dobText" layoutX="1.0" layoutY="346.0" prefHeight="42.0" prefWidth="460.0" styleClass="date-picker" stylesheets="@../css/style.css" />
+            <CheckBox layoutX="1.0" layoutY="413.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="163.0" text="I accept the             and " textFill="#afb1b5">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </CheckBox>
+            <Hyperlink layoutX="92.0" layoutY="411.0" prefHeight="12.0" prefWidth="43.0" styleClass="login-hyperlink" stylesheets="@../css/style.css" text="Terms">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Hyperlink>
+            <Hyperlink layoutX="159.0" layoutY="411.0" prefHeight="26.0" prefWidth="70.0" styleClass="login-hyperlink" stylesheets="@../css/style.css" text="Conditions">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Hyperlink>
+            <PasswordField fx:id="passwordText" layoutY="260.0" prefHeight="42.0" prefWidth="460.0" styleClass="login-text-field" stylesheets="@../css/style.css">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </PasswordField>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
